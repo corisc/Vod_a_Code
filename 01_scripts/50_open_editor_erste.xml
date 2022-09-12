@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="99_install" default="controller" basedir=".">
+
+		<property name="dir_no" value="100"/>	
+
+  <target name="controller">
+
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+		<echo message="" />
+		<echo message="" />
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+
+		
+		<antcall target="transfer"/>
+
+  </target>
+
+	<!-- Verzeichnis c:/bwl existiert nicht -->
+  <target name="transfer">
+		<exec executable="94_editor/Notepad++Portable/Notepad++Portable.exe" failonerror="true">
+  		<arg line="d:\0_ml\ml_kd\19_schulung\31_web_praxis\01_stick_inhalt\70_html\01_erste.html"/>
+		</exec>
+
+  
+  </target>
+
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="fh" default="controller" basedir=".">
+	
+	<property name="carriageReturn" value="&#13;&#10;"/>
+
+  <target name="controller">
+  
+		<echo file="../erste.html" append="false"><![CDATA[<html>]]></echo>
+		<echo file="../erste.html" append="true">${carriageReturn}<![CDATA[  <title>Meine erste Seite</title>]]></echo>
+		<echo file="../erste.html" append="true">${carriageReturn}<![CDATA[  <body>]]></echo>
+		<echo file="../erste.html" append="true">${carriageReturn}<![CDATA[    <h1>Eine überschrift</h1>]]></echo>
+		<echo file="../erste.html" append="true">${carriageReturn}<![CDATA[  </body>]]></echo>
+		<echo file="../erste.html" append="true">${carriageReturn}<![CDATA[</html>]]></echo>
+
+  </target>
+
+
+</project>

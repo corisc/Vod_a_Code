@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="99_install" default="controller" basedir=".">
+
+		<property name="dir_no" value="100"/>	
+
+  <target name="controller">
+
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+		<echo message="" />
+		<echo message="" />
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+
+		
+		<antcall target="transfer"/>
+
+  </target>
+
+	<!-- Verzeichnis c:/bwl existiert nicht -->
+  <target name="transfer">
+  <echo message="!!!!" />
+  		<scp	file="c:/bwl/70_html/mobil_01.html" 
+					todir="testuser2:9999@85.214.207.250:/opt/ml/tomcat_3/webapps/bwl/${dir_no}"
+					failonerror="true"
+					trust="yes" verbose="true"
+					sftp="yes" />  	
+
+  
+  </target>
+
+</project>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="99_install" default="controller" basedir="../..">
+
+<typedef resource="net/sf/antcontrib/antlib.xml" />
+  
+  <target name="controller">
+  
+  	<property name="verzeichnis_welches_nicht_existieren_darf"     value="./41_platform/jenkins" />
+
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+		<echo message="Build Platform" />
+		<echo message="Basisverzeichnis: ${basedir}" />
+		<echo message="" />
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+
+		<antcall target="target_pruefen_ob_verzeichnis_schon_existiert"/>
+
+  </target>
+
+  <target name="target_platform_installieren">
+ 		<antcall target="ausgabe">
+ 			<param name="nachricht"     value="Microservice wird installiert" />
+ 		</antcall>
+ 		<copy todir="${verzeichnis_welches_nicht_existieren_darf}/classes" failonerror="true">
+	    <fileset dir="./10_eclipse/0_workspace/bwl/classes">
+	    	<include name="**/**"/>
+	   	</fileset>
+	  </copy>
+ 		<copy todir="${verzeichnis_welches_nicht_existieren_darf}/lib" failonerror="true">
+	    <fileset dir="./10_eclipse/0_workspace/bwl/lib">
+	    	<include name="**/**"/>
+	   	</fileset>
+	  </copy>
+	  
+	  <echo file="${verzeichnis_welches_nicht_existieren_darf}/../02_starte_test_microservice_1.bat" append="false">
+90_java\bin\java.exe -cp jenkins\classes;jenkins\lib\commons-codec.jar;jenkins\lib\commons-httpclient.jar;jenkins\lib\commons-logging-adapters.jar;jenkins\lib\commons-logging-api.jar;jenkins\lib\commons-logging.jar;jenkins\lib\dsn.jar;jenkins\lib\hsqldb.jar;jenkins\lib\imap.jar;jenkins\lib\jdom.jar;jenkins\lib\mail.jar;jenkins\lib\mailapi.jar;jenkins\lib\mdg.jar;jenkins\lib\mdg_obf.jar;jenkins\lib\pop3.jar;jenkins\lib\smtp.jar bwl.Programm1
+pause
+		</echo>
+
+  </target>
+		
+		
+  <target name="target_pruefen_ob_verzeichnis_schon_existiert">
+		<if>
+			<available file="${verzeichnis_welches_nicht_existieren_darf}" type="dir" />
+			
+			<then>
+				<!-- Ausgabe -->
+				<antcall target="ausgabe">
+					<param name="nachricht"     value="Bitte den Microservice 1 erst loeschen" />
+				</antcall>		
+				<fail message="Installation wurde unterbrochen" />       	
+			</then>
+			<else>
+				<antcall target="target_platform_installieren"/>
+			</else>
+		</if>
+  	
+  </target>
+		
+	<target name="ausgabe" >
+		<echo message="" />
+		<echo message="******************************************************************" />
+		<echo message="* ${nachricht}" />		
+		<echo message="******************************************************************" />
+	</target>
+
+
+
+</project>

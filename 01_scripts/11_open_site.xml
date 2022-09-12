@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="99_install" default="controller" basedir=".">
+
+		<property name="dir_no" value="100"/>	
+
+  <target name="controller">
+
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+		<echo message="" />
+		<echo message="" />
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+
+		
+		<antcall target="transfer"/>
+
+  </target>
+
+	<!-- Verzeichnis c:/bwl existiert nicht -->
+  <target name="transfer">
+		<exec executable="93_browser/FirefoxPortable.exe" failonerror="true">
+  		<arg line="-url http://85.214.207.250:80/bwl/10/m.html"/>
+		</exec>
+
+  
+  </target>
+
+</project>

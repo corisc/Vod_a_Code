@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="99_install" default="controller" basedir="../..">
+
+<typedef resource="net/sf/antcontrib/antlib.xml" />
+  
+  <target name="controller">
+  
+  	<property name="verzeichnis_welches_nicht_existieren_darf"     value="./42_platform_prod" />
+
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+		<echo message="Build Platform" />
+		<echo message="Basisverzeichnis: ${basedir}" />
+		<echo message="" />
+		<echo message="============================================================================================" />
+		<echo message="============================================================================================" />
+
+		<antcall target="target_pruefen_ob_verzeichnis_schon_existiert"/>
+
+  </target>
+
+  <target name="target_platform_installieren">
+ 		<antcall target="ausgabe">
+ 			<param name="nachricht"     value="Platform wird installiert" />
+ 		</antcall>
+ 		<copy todir="${verzeichnis_welches_nicht_existieren_darf}/90_java" failonerror="true">
+	    <fileset dir="./90_java">
+	    	<include name="**/**"/>
+	   	</fileset>
+	  </copy>
+
+  </target>
+		
+		
+  <target name="target_pruefen_ob_verzeichnis_schon_existiert">
+		<if>
+			<available file="${verzeichnis_welches_nicht_existieren_darf}" type="dir" />
+			
+			<then>
+				<!-- Ausgabe -->
+				<antcall target="ausgabe">
+					<param name="nachricht"     value="Bitte die Platform erst loeschen" />
+				</antcall>		
+				<fail message="Installation wurde unterbrochen" />       	
+			</then>
+			<else>
+				<antcall target="target_platform_installieren"/>
+			</else>
+		</if>
+  	
+  </target>
+		
+	<target name="ausgabe" >
+		<echo message="" />
+		<echo message="******************************************************************" />
+		<echo message="* ${nachricht}" />		
+		<echo message="******************************************************************" />
+	</target>
+
+
+
+</project>

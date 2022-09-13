@@ -1,1 +1,0 @@
-@call notepad ..\erste.html

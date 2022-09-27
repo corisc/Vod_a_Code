@@ -1,0 +1,13 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡™øÄ
+o
+java:S1104"TMake paechter a static final constant or non-public and provide accessors if needed.(ÞÝ…·ùÿÿÿÿ
+i
+java:S1104"SMake filiale a static final constant or non-public and provide accessors if needed.(¡™øÄ
+o
+java:S1104	"TMake standort a static final constant or non-public and provide accessors if needed.(žÌûÍýÿÿÿÿ
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¡™øÄ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Þ€ƒÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Þ€ƒÿ

@@ -1,0 +1,8 @@
+
+˜
+java:S1130"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Ô‰‚õùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óã¹“ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(•…•Åûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Š€ÉÍ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ

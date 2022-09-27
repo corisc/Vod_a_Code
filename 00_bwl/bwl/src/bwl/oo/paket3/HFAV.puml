@@ -1,0 +1,75 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+class Game{
++start()
++main()
++einsicht()
+}
+class Fenster{
+- ArrayList<EingabeFeld>
+- Fenster f
++erstelleText()
++erstelleBeschriftetesEingabefeld()
++erstelleSchalter()
++loeschen()
+}
+class Verbindung{
+-{static} ArrayList<XVerbindung> verbindungsListe
++setInVerbindungsListe()
+-int h
+-int f
+-int a
+-int v
+}
+class Hochschule{
+-{static}ArrayList<Hochschule> hochschuleListe;
+-String name
+-String adresse
++setInListeH()
+}
+class Fachschaft{
+-{static} ArrayList<XFachschaft> listeF
+-String name
++ setInListeF()
+}
+class Angestellter{
+-{static}ArrayList<Fachschaft>
+-String name
++setInListeA()
+
+}
+class Vorlesung{
+-{static}ArrayList<Vorlesung>
+-String name
+-String datum
++setInListeV()
+}
+
+Hochschule "1" *-- "n" Fachschaft
+Hochschule "1" *-- "n" Vorlesung
+Hochschule "1" *-- "n" Angestellter
+Angestellter "1" -- "n" Vorlesung
+Vorlesung "n" -- "1" Fachschaft
+Fachschaft "n" -- "n" Angestellter
+
+Verbindung "n" -- "1" Hochschule
+Verbindung "n" -- "1" Vorlesung
+Verbindung "n" -- "1" Angestellter
+Verbindung "n" -- "1" Fachschaft
+Verbindung "n" -- "1" Game
+
+Fenster -- Hochschule
+Fenster -- Vorlesung
+Fenster -- Angestellter
+Fenster -- Fachschaft
+Fenster -- Game
+
+Game "1" -- "n" Hochschule
+Game "1" -- "n" Vorlesung
+Game "1" -- "n" Angestellter
+Game "1" -- "n" Fachschaft
+
+@enduml

@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/auktionshaus2/Variante_2014_wi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/mail/Programm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/webseite/WebSeite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket2/FensterProjekte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket4/Rechenzentrum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket7/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Abgeordneter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/GekoreneMitgliederBundestag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Ministerpraesident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket901/Bundesregierung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/swing/basic/GraphikLiniePanel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/framework/server/HttpAnswerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/datenbank/ColumnDatum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/DateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/views/Fenster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/pi/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/Depot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/DlgNeueBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/SplashScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/vf/scrum/ciprepared/Programm2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/02_datei_bearbeiten.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/10_transfer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/11_open_site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_scripts/50_open_editor_erste.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/functions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.script" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/mydb.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/mydb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/mydb.script" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/start_admin.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/start_db.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_db/test.script" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/bootstrap.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina-tasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/commons-daemon.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/cpappend.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/digest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/digest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/jsvc.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/service.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/setclasspath.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/setclasspath.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/shutdown.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/shutdown.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/startup.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/startup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat-juli.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat-native.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat6w.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/version.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/version.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_tomcat/conf/catalina.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/01_build_platform.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/02_deploy_microservice_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/03_deploy_test_microservice_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/04_build_platform_prod.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/01_build_platform.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/02_deploy_microservice_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/03_deploy_test_microservice_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/40_ci/04_build_platform_prod.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/PuTTYPortable.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/splash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appinfo.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PAGEANT.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PLINK.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PSCP.EXE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +34,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/programming/00_bwl",
-    "project.structure.last.edited": "Project",
+    "jdk.selected.JAVA_MODULE": "13",
+    "last_opened_file_path": "D:/Git/00_bwl/bwl",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "http.proxy"

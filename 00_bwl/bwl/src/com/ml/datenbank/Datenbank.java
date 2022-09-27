@@ -33,7 +33,7 @@ import javax.swing.table.TableRowSorter;
 
 import com.ml.utils.Helfer;
 import com.ml.views.DatenReihe;
-import com.sun.org.apache.xml.internal.security.utils.HelperNodeList;
+
 
 
 /**
@@ -518,7 +518,7 @@ public class Datenbank {
       }
       
             
-      komplett.add(scroller, BorderLayout.CENTER);      // kleines Fenster in großes Fenster einfuegen
+      komplett.add(scroller, BorderLayout.CENTER);      // kleines Fenster in groï¿½es Fenster einfuegen
       return komplett;
     }catch( Exception e ) 
     { 

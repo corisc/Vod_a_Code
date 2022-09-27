@@ -1,56 +1,53 @@
 package bwl.oo.paket901;
 
-public class Bundeskanzler{
+import com.ml.views.EingabeFeld;
+import com.ml.views.Fenster;
+import com.ml.views.Schalter;
+import com.ml.views.Text;
 
+public class Bundeskanzler extends Regierungsmitarbeiter{
+    private double amtszeit;
 
-	 private double amtszeit;
-	 private String vorname;
-	 private String nachname;
-	 private String adresse;
-	
-	public Bundeskanzler(String vorname, String nachname, String adresse, double amtszeit) {
-		this.amtszeit = amtszeit;     
-		this.vorname = vorname;
-		this.nachname = nachname;
-        this.adresse = adresse;
-	}
+    public Bundeskanzler(String name, String vorname, Partei partei, double amtszeit){
+        super(name, vorname, partei);
+        this.amtszeit = amtszeit;
+    }
 
-    public double liefereAmtszeit() {
-      return amtszeit;
+    public double getAmtszeit() {
+        return amtszeit;
     }
-  
-    public void setzeAmtszeit(double amtszeit) {
-      this.amtszeit = amtszeit;
-    }
-  	
-    public String liefereVorname() {
-        return vorname;
-    }
-  
-    public void setzeVorname(String vorname) {
-        this.vorname = vorname;
-    }
-  
-    public String liefereNachname() {
-        return nachname;
-    }
-  
-    public void setzeNachname(String nachname) {
-        this.nachname = nachname;
-    }
-  
-    public String liefereAdresse() {
-        return adresse;
-    }
-  
-    public void setzeAdresse(String adresse) {
-        this.adresse = adresse;
-    }	
-  	
-   
 
-   
-   
-		
-	
+    public void setAmtszeit(double amtszeit) {
+        this.amtszeit = amtszeit;
+    }
+
+    public static Bundeskanzler createBundeskanzler(){
+        Fenster form = new Fenster("Bundeskanzler erstellen", 1300, 1000);
+        Text name = new Text("Name");
+        Text vorname = new Text("Vorname");
+        Text party = new Text("Partei");
+        Text amtszeit = new Text("Amtszeit");
+        EingabeFeld vornameE = new EingabeFeld("Vorname");
+        EingabeFeld nameE = new EingabeFeld("Name");
+        EingabeFeld ParteiE = new EingabeFeld("Partei");
+        EingabeFeld amtszeitE = new EingabeFeld("Amtszeit");
+        Schalter eingabe = new Schalter("Erstellen");
+        form.zeige(vorname,200,300);
+        form.zeige(vornameE,200,330, 900);
+        form.zeige(name,200,400);
+        form.zeige(nameE,200,430, 900);
+        form.zeige(party,200,500);
+        form.zeige(ParteiE,200,530, 900);
+        form.zeige(amtszeit,200,600);
+        form.zeige(amtszeitE,200,630, 900);
+        form.zeige(eingabe,200,700, 900);
+        form.anzeigen();
+        eingabe.warteAufEingabe();
+        Partei p = new Partei(ParteiE.getText());
+        Bundeskanzler bk = new Bundeskanzler(vornameE.getText(), nameE.getText(),p,amtszeitE.getWert());
+        p.setMitglied(bk);
+        form.schliessen();
+        return bk;
+
+    }
 }

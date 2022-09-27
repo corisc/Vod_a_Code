@@ -1,7 +1,7 @@
 package bwl.oo.paket6;
 
 /**
- *
+ * Klasse Filiale hat nur eine Eigenschaft: Standort
  * */
 
 public class Filiale {

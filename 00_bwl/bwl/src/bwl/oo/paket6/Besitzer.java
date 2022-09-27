@@ -32,6 +32,7 @@ public class Besitzer extends Person{
 
     /**
      * Methode fuegeFilialeHinzu() erhöht die Anzaht von den Filialen, die Besitzer hat.
+     * @return filialen
      * */
 
     public void fuegeFilialeHinzu(){

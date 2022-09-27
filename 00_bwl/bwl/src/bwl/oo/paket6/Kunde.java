@@ -2,6 +2,11 @@ package bwl.oo.paket6;
 
 import java.util.Random;
 
+/**
+ * Klasse Kunde ist eine untergeordnete Klasse von der Klasse Peson.
+ * hat zwei Eigenschaften(Nachname und Vorname,
+ *  die beiden von Person geerbt werden).
+ * */
 
 
 public class Kunde extends Person{
@@ -28,6 +33,10 @@ public class Kunde extends Person{
         nachname = lastname;
     }
 
+    /**
+     * Methode public int gewinnspiel() generiert eine zufällige Zahl ( int number)
+     * @return number
+     * */
     public int gewinnspiel(){
         Random rand = new Random();
         int n = rand.nextInt(800);

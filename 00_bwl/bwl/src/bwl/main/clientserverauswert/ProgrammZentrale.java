@@ -1,5 +1,6 @@
 package bwl.main.clientserverauswert;
 
+//import com.conf.BasicEnvConfiguration;
 import com.conf.BasicEnvConfiguration;
 import com.ml.connection.AnfrageWeb;
 import com.ml.views.Fenster;

@@ -1,59 +1,46 @@
 package bwl.oo.paket901;
 
-public class Bundesminister {
+import com.ml.views.EingabeFeld;
+import com.ml.views.Fenster;
 
-    private String vorname;
-    private String nachname;
-    private String adresse;
+public class Bundesminister extends Regierungsmitarbeiter{
+    private String aufgabengebiet;
     private Ministerium ministerium;
-    
-	public Bundesminister(String vorname, String nachname, String adresse) {
-		this.vorname = vorname;
-        this.nachname = nachname;
-        this.adresse = adresse;
+
+    public Bundesminister(String name, String vorname, Partei partei, String aufgabengebiet, Ministerium ministerium){
+        super(name,vorname, partei);
+        this.aufgabengebiet = aufgabengebiet;
         this.ministerium = ministerium;
-  }
+    }
 
-	
-  public String liefereVorname() {
-      return vorname;
-  }
-  
-  public Ministerium liefereMinisterium() {
-    return this.ministerium;
+    public String getAufgabengebiet() {
+        return aufgabengebiet;
+    }
+
+    public void setAufgabengebiet(String aufgabengebiet) {
+        this.aufgabengebiet = aufgabengebiet;
+    }
+
+    public Ministerium getMinisterium() {
+        return ministerium;
+    }
+
+    public void setMinisterium(Ministerium ministerium) {
+        this.ministerium = ministerium;
+    }
+
+   /* public Bundesminister createBM(){
+        Bundesminister BM;
+        /*Fenster formular = new Fenster("Bundesminister erstellen", 1300, 1000);
+        EingabeFeld vorname = new EingabeFeld("Vorname");
+        EingabeFeld Name = new EingabeFeld("Name");
+        EingabeFeld Aufgabengebiet = new EingabeFeld("Aufgabengebiet");
+        EingabeFeld vorname = new EingabeFeld("vorname");
+        EingabeFeld vorname = new EingabeFeld("vorname");
+
+        String*/
+        //return BM;
+    //}
 }
 
-
-  public void setzeVorname(String vorname) {
-      this.vorname = vorname;
-  }
-
-  public String liefereNachname() {
-      return nachname;
-  }
-
-  public void setzeNachname(String nachname) {
-      this.nachname = nachname;
-  }
-
-  public String liefereAdresse() {
-      return adresse;
-  }
-
-  public Ministerium setzeMinisterium(Ministerium ministerium) {
-    return this.ministerium = ministerium;
-}
-
-  
-  public void setzeAdresse(String adresse) {
-      this.adresse = adresse;
-  }
-  
-  
-  
-  
-  
- 
-  
-}
 

@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project" />
+    <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project">
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/3174be55f5ab98c931d85c5afb4f597346342e9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/377783e88b17e857b3fccb76b92b73f1cc54f519" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/469e6d21e02ee001c35d94b09a49a63f0bc0bcac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/5aa2a5f8faa65774a8acba73aa566bd1457853a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/6726e1579fe81a283271d76aa7d60263cb6a9121" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/7bc0ed3027fe58915613743e681442cc498c867e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/7deef80ea3a183412bcc31ac838393532f971086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/9c212431f03adbc64492310e04190adc1d72bb82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/ae26a69460ba09ac57fe26e918c6e87e1518b315" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/bcc47371b7c102010b688ed5ef8d129970d9ef55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/cc1638429595f1a5400e8a365a3df97e7e28a767" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/f738e831dd3982854e27960578c4106f1ca5fbc9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/f9e646b48648acc4628acf27ead68acebfd2c2cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/fcdad5961d2da2715f5b287ed3ab071d44a88237" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/0/a/0a6550166a6eaac9ab06ed6cbabde4cf3be7eae2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/3/1/3174be55f5ab98c931d85c5afb4f597346342e9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/3/7/377783e88b17e857b3fccb76b92b73f1cc54f519" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/4/6/469e6d21e02ee001c35d94b09a49a63f0bc0bcac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/5/55ca2d0f931d8b48f30203201299dd08cacfcf16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/6/563a23e064e6fdd2d09bd0c2d99ef456aff71a31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/a/5aa2a5f8faa65774a8acba73aa566bd1457853a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/6/2/62f76748ce32ebb29083055f580c09a5111fd672" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/6/7/6726e1579fe81a283271d76aa7d60263cb6a9121" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/7/b/7bc0ed3027fe58915613743e681442cc498c867e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/7/d/7deef80ea3a183412bcc31ac838393532f971086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/9/c/9c212431f03adbc64492310e04190adc1d72bb82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/a/e/ae26a69460ba09ac57fe26e918c6e87e1518b315" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/b/c/bcc47371b7c102010b688ed5ef8d129970d9ef55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/c/c/cc1638429595f1a5400e8a365a3df97e7e28a767" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/7/f738e831dd3982854e27960578c4106f1ca5fbc9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/9/f9e646b48648acc4628acf27ead68acebfd2c2cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/c/fcdad5961d2da2715f5b287ed3ab071d44a88237" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +70,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-
-    "last_opened_file_path": "D:/IntelliJ IDEA Community Edition 2022.2.1/Vod_a_Code/00_bwl",
-
+    "last_opened_file_path": "D:/Intellij/Git/00_bwl",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

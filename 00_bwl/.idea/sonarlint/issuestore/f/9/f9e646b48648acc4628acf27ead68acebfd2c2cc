@@ -1,0 +1,18 @@
+
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(œûÍ„
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+l
+java:S1104	"VMake praesident a static final constant or non-public and provide accessors if needed.(—Ìö­
+n
+java:S1104
+"XMake fachschaften a static final constant or non-public and provide accessors if needed.(œûÍ„
+{
+java:S1149
+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(œûÍ„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–ž¼Ý
+S	java:S106"9Replace this use of System.out or System.err by a logger.(–ìõ‚øÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(Ã¬žü
+N	java:S106."9Replace this use of System.out or System.err by a logger.(Ã¬žü

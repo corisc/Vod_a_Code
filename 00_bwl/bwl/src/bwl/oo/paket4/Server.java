@@ -14,6 +14,24 @@ public class Server {
     this.domainName = domainName;
     this.rechenzentrum = rechenzentrum;
   }
+  public void setIpAdresse(){
+    this.ipAdresse = ipAdresse;
+  }
+  public String getIpAdresse(){
+    return ipAdresse;
+  }
+  public void setDomainName(){
+    this.domainName = domainName;
+  }
+  public String getDomainName(){
+    return domainName;
+  }
+  public void setRechenzentrum(){
+    this.rechenzentrum = rechenzentrum;
+  }
+  public Rechenzentrum getRechenzentrum(){
+    return rechenzentrum;
+  }
 
 
 }

@@ -33,5 +33,16 @@ public class OnlineShop {
     this.server.add(server);
   }
 
+  public String werbungZeigen(){
+    String aa = new String("Der Staubsauger BOBO5000 ist im Angebot für 199€");
+    return aa;}
+  public void setName(){
+    this.name = name;}
+  public String getName(){
+    return name;}
+  public void setHandelsregisterEintrag(){
+    this.handelsregisterEintrag = handelsregisterEintrag;}
+  public int getHandelsregisterEintrag(){
+    return handelsregisterEintrag;}
 }
 

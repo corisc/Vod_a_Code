@@ -32,7 +32,18 @@ public class ITAbteilung {
   void fuegeMitarbeiterHinzu(Angestellter ma){
     this.mitarbeiter.add(ma);
   }
-  
+
+  public void setBezeichner(){
+    this.bezeichner = bezeichner;
+  }
+  public String getBezeichner(){
+    return bezeichner;
+  }
+  public void setBudget(){
+    this.budget = budget;
+  }
+  public Budget getBudget(){
+    return budget;}
 
 }
 

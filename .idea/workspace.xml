@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +35,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+
     "last_opened_file_path": "D:/IntelliJ IDEA Community Edition 2022.2.1/Vod_a_Code/00_bwl",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.proxy"
+    "settings.editor.selected.configurable": "configurable.group.build.android"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +52,6 @@
   <component name="RunManager" selected="Application.Programm1">
     <configuration name="Programm1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bwl.Programm1" />
-      <module name="programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bwl.*" />
@@ -72,6 +75,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Programm1" />
+      <item itemvalue="Application.Programm3" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Programm1" />

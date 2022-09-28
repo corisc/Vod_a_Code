@@ -518,7 +518,7 @@ public class Datenbank {
       }
       
             
-      komplett.add(scroller, BorderLayout.CENTER);      // kleines Fenster in großes Fenster einfuegen
+      komplett.add(scroller, BorderLayout.CENTER);      // kleines Fenster in groï¿½es Fenster einfuegen
       return komplett;
     }catch( Exception e ) 
     { 

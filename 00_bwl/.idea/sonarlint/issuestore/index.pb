@@ -34,8 +34,6 @@ S
 #bwl/src/bwl/oo/paket6/Besitzer.java,0\a\0a6550166a6eaac9ab06ed6cbabde4cf3be7eae2
 R
 "bwl/src/bwl/oo/paket6/Filiale.java,5\a\5aa2a5f8faa65774a8acba73aa566bd1457853a8
-Q
-!bwl/src/bwl/oo/paket6/Bezirk.java,7\d\7deef80ea3a183412bcc31ac838393532f971086
 R
 "bwl/src/bwl/oo/paket4/A0Start.java,b\c\bcc47371b7c102010b688ed5ef8d129970d9ef55
 R

@@ -1,5 +1,6 @@
 package bwl.oo.paket5;
 
+
 public class Stadt extends One{
 
   private Buergermeister buergermeister;

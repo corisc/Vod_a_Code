@@ -15,6 +15,10 @@ import bwl.oo.paket3.*;
 
 public class Programm3 {
  
+  /**
+   * The function `main` is called when the program starts. It creates a window, shows some text and waits for the user to
+   * press a button
+   */
   public static void main(String[] args) {
     
     // Hau rein
@@ -59,6 +63,8 @@ public class Programm3 {
     zei.polygonZeichnen(new Farbe(255,0,0),100,100,100
         ,wertAusEingabeFeldZwei,200,wertAusEingabeFeldZwei,200,
         100,100,100);
+
+
     
   }
 }

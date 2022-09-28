@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+class Partei{
+    String Name
+    ArrayList <Regierungsmitarbeiter> Mitglieder
+    {method} void createParty()
+    {method} void deleteParty()
+
+}
+class Regierungsmitarbeiter{
+    String name
+    int persNr
+    Partei partei
+
+}
+
+class Ministerium {
+    String Name
+    String ministeriumID
+    Bundesminister vorsitzender
+    {method} createMinisterium()
+    {method} deleteMinisterium()
+
+}
+class Bundesminister {
+    String Aufgabengebiet
+
+}
+class Bundeskanzler{
+    double amtszeit
+    {method} createBundeskanzler
+    {method} changeBundeskanzler
+
+
+}
+class Bundesregierung{
+    Bundeskanzler vorsitzender
+    ArrayList<Ministerium> ministerien
+    ArrayList<Bundesminister> kabinett
+    {method} createNewBRD()
+    {method} manageBRD()
+}
+
+Bundeskanzler  "1" *---  "1"  Bundesregierung : leitet
+Bundesminister "1" ---*  "1"  Ministerium : leitet
+Bundesregierung "1" *--- "n" Ministerium : betseht aus
+Regierungsmitarbeiter <|-- Bundesminister
+Regierungsmitarbeiter <|-- Bundeskanzler
+Bundesminister "n" ---* "1" Bundesregierung : ist teil von
+Partei "1" ---* "n" Regierungsmitarbeiter : besteht aus
+
+@enduml

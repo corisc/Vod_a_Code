@@ -3,7 +3,6 @@ package bwl.main.mail;
 import org.simplejavamail.email.Email;
 import org.simplejavamail.email.EmailBuilder;
 import org.simplejavamail.mailer.MailerBuilder;
-
 public class Programm {
 
   /**

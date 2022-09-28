@@ -35,7 +35,11 @@ public class A0Start {
     
     aus.ausgeben("Der Betrag des Budgets fuer das Rechenzentrum ist:");
     aus.ausgeben(os.liefereServer("81.159.169.70").rechenzentrum.abteilung.budget.betrag);
-
+    aus.ausgeben("Der Betrag des Budgets fuer das Rechenzentrum ist:");
+    aus.ausgeben(os.liefereServer("81.159.169.70").rechenzentrum.abteilung.budget.betrag);
+    aus.ausgeben(a2.arbeiten());
+    aus.ausgeben(a2.urlaubBeantragen());
+    aus.ausgeben(os.werbungZeigen());
   }
 
 }

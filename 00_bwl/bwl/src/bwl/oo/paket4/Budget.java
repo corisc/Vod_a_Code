@@ -8,7 +8,12 @@ public class Budget {
     super();
     this.betrag = betrag;
   }
-  
+  public void setBetrag(){
+    this.betrag = betrag;
+  }
+  public int getBetrag(){
+    return betrag;
+  }
   
 
 }

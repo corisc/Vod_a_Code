@@ -6,7 +6,6 @@ import com.ml.views.AusgabeFenster;
 import com.ml.views.KreisBerechner;
 import com.ml.views.ZeichenFenster;
 
-
 public class ProgrammVorlesung{
 
   // Einsprungpunkt

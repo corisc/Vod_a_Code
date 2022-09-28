@@ -35,7 +35,6 @@ import com.ml.utils.Helfer;
 import com.ml.views.DatenReihe;
 
 
-
 /**
 * Klasse fuer einfache Datenbankverbindung
 * mit Tabellen (ID, Name) anlegen,

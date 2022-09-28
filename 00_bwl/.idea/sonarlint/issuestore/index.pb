@@ -1,4 +1,5 @@
 
+
 I
 bwl/src/bwl/Programm.java,6\3\637cd381ff6488178cdcecd579d9f21154ed8b7f
 [
@@ -39,3 +40,5 @@ R
 "bwl/src/com/ml/views/Schalter.java,6\7\6726e1579fe81a283271d76aa7d60263cb6a9121
 Q
 !bwl/src/com/ml/views/Fenster.java,9\c\9c212431f03adbc64492310e04190adc1d72bb82
+Q
+!bwl/src/bwl/oo/paket6/Bezirk.java,7\d\7deef80ea3a183412bcc31ac838393532f971086

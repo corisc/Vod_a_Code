@@ -14,7 +14,24 @@ public class Rechenzentrum {
     this.ort = ort;
     this.leiter = leiter;
   }
-  
+  public void setOrt(){
+    this.ort = ort;
+  }
+  public String getOrt(){
+    return ort;
+  }
+  public void setLeiter(){
+    this.leiter = leiter;
+  }
+  public Angestellter getLeiter(){
+    return leiter;
+  }
+  public void setAbteilung(){
+    this.abteilung = abteilung;
+  }
+  public ITAbteilung getAbteilung(){
+    return abteilung;
+  }
   
 }
 

@@ -96,14 +96,14 @@ public class Partei {
     public static Partei create1Party(){
         Fenster create = new Fenster("erstelle Partei", 1300, 1000);
         EingabeFeld parteiname = new EingabeFeld("Parteiname");
-        EingabeFeld Gründer = new EingabeFeld("Gründer");
+        EingabeFeld Groender = new EingabeFeld("Grï¿½nder");
         Schalter erstellen = new Schalter("Erstellen");
         create.zeige(parteiname, 200, 500, 500);
-        create.zeige(Gründer, 200, 600, 500);
+        create.zeige(Groender, 200, 600, 500);
         create.zeige(erstellen, 200,700, 500);
         create.anzeigen();
         erstellen.warteAufEingabe();
-        String[]a = Gründer.getText().split(" ");
+        String[]a = Groender.getText().split(" ");
         Partei p = new Partei(parteiname.getText());
         Bundeskanzler gr = new Bundeskanzler(a[1], a[0], p, 4.0);
         p.setMitglied(gr);

@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ec2102-d40a-45f9-8800-6dc1b887e944" name="Changes" comment="alte gui wurde korregiert">
+    <list default="true" id="67ec2102-d40a-45f9-8800-6dc1b887e944" name="Changes" comment="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket2/Projekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket2/Projekt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/Besitzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket6/Besitzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/ausrufezeichen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/ban_vod.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner_ohm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner_vf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/bannerfh.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/filiale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/fireworks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/fragezeichen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/gewinnspiel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/haken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/herz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/lange5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sTwo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sap_breit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sql_splash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/start_bild.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/vf_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/wappen.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664376256753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
+      <created>1664445815602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664445815602</updated>
+    </task>
+    <task id="LOCAL-00004" summary="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
+      <created>1664445840709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664445840709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FIX Anastasiia" />
     <MESSAGE value="alte gui wurde korregiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="alte gui wurde korregiert" />
+    <MESSAGE value="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt" />
   </component>
 </project>

@@ -7,8 +7,32 @@ public class Projekt {
   public String titel;
   public Mitarbeiter projektLeiter;
   public Vector<Aufgabe> aufgaben = new Vector<Aufgabe>();
-  
-  public int liefereAnzahlAufgaben(){
+
+    public String getTitel() {
+        return titel;
+    }
+
+    public void setTitel(String titel) {
+        this.titel = titel;
+    }
+
+    public Mitarbeiter getProjektLeiter() {
+        return projektLeiter;
+    }
+
+    public void setProjektLeiter(Mitarbeiter projektLeiter) {
+        this.projektLeiter = projektLeiter;
+    }
+
+    public Vector<Aufgabe> getAufgaben() {
+        return aufgaben;
+    }
+
+    public void setAufgaben(Vector<Aufgabe> aufgaben) {
+        this.aufgaben = aufgaben;
+    }
+
+    public int liefereAnzahlAufgaben(){
     return aufgaben.size();
   }
   

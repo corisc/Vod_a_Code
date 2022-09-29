@@ -1,12 +1,14 @@
 package bwl.oo.paket6;
 
+import bwl.oo.paket8.Bankfiliale;
 import com.framework.SQLFenster;
 import com.ml.views.*;
 
 public class Main extends javax.swing.JFrame {
     public static void main(String[] args) {
-        SplashScreen sOne = new SplashScreen(3000,"Vodafone Shop","vf_logo.jpg");
-        sOne.anzeigen();
+
+        //SplashScreen sOne = new SplashScreen(3000,"Vodafone Shop","bwl\\src\\bwl\\oo\\paket6\\daten\\vf_logo.jpg");
+        //sOne.anzeigen();
 
         Fenster f1 = new Fenster("Vodafone Shop");
         Farbe farbeVod = new Farbe(230,0,0);
@@ -29,13 +31,13 @@ public class Main extends javax.swing.JFrame {
         Fenster f2 = new Fenster("Besitzer");
 
         Rechteck rKleinOwn = new Rechteck(740, 290, farbeVod);
-        Bild b1 = new Bild("lange5.jpg");
+        //Bild b1 = new Bild("lange5.jpg");
         Text firstname = new Text("Ihr Vorname: ");
         Text lastname = new Text("Ihr Nachname: ");
         EingabeFeld fName = new EingabeFeld();
         EingabeFeld lName = new EingabeFeld();
 
-        f2.zeige(b1,40,20);
+       // f2.zeige(b1,40,20);
         f2.zeige(rKleinOwn, 20, 140);
         f2.zeige(rGross, 10, 10);
         f2.zeige(firstname, 230, 200, 100);
@@ -53,8 +55,8 @@ public class Main extends javax.swing.JFrame {
 
         f2.schliessen();
 
-        SplashScreen sTwo = new SplashScreen(3000,"","sTwo.gif");
-        sTwo.anzeigen();
+        //SplashScreen sTwo = new SplashScreen(3000,"","sTwo.gif");
+        //sTwo.anzeigen();
 
         //Window with options for owner
         Fenster f2_1 = new Fenster("Besitzer");
@@ -62,7 +64,7 @@ public class Main extends javax.swing.JFrame {
         Schalter count = new Schalter("Anzahl der Filialen zeigen");
         Ueberschrift u1Own = new Ueberschrift("Was möchten Sie tun?");
 
-        f2_1.zeige(b1,40,20);
+        //2_1.zeige(b1,40,20);
         f2_1.zeige(u1Own, 180, 160);
 
         f2_1.zeige(rKleinOwn, 20, 140);
@@ -76,16 +78,16 @@ public class Main extends javax.swing.JFrame {
         //Neue Filiale hinzufügen
         Fenster f2_2 = new Fenster("Neue Filiale hinzufügen");
         Rechteck rKleinFil = new Rechteck(740, 250, farbeVod);
-        Bild logo = new Bild("vf_logo.jpg");
-        Bild filiale = new Bild("filiale.jpg");
+       // Bild logo = new Bild("vf_logo.jpg");
+       // Bild filiale = new Bild("filiale.jpg");
         Text filAdresse = new Text("Tragen Sie bitte die Adresse von der neuen Filialen:");
         EingabeFeld filAd = new EingabeFeld();
         Schalter saveFil = new Schalter("Speichern");
 
         f2_2.zeige(rGross, 10, 10);
         f2_2.zeige(rKleinFil, 20, 180);
-        f2_2.zeige(logo, 20, 20);
-        f2_2.zeige(filiale, 520, 20);
+       // f2_2.zeige(logo, 20, 20);
+        //f2_2.zeige(filiale, 520, 20);
         f2_2.zeige(filAdresse, 30, 220);
         f2_2.zeige(filAd, 30, 250, 300);
         f2_2.zeige(saveFil, 300, 300, 150);
@@ -99,9 +101,12 @@ public class Main extends javax.swing.JFrame {
 
         f2_2.schliessen();
 
-        sTwo.anzeigen();
+       // sTwo.anzeigen();
 
-        //??
+
+        /**
+         * Zusaetzliche Methoden
+         * */
         Fenster f2_3 = new Fenster("Neue Filiale hinzufügen");
         Ueberschrift filHinzufuegt= new Ueberschrift("Neue Filiale wurde hinzufügt!");
         Text filAdresseOne = new Text("Adresse von der neuen Filiale lautet ");
@@ -109,8 +114,8 @@ public class Main extends javax.swing.JFrame {
 
         f2_3.zeige(rGross, 10, 10);
         f2_3.zeige(rKleinFil, 20, 180);
-        f2_3.zeige(logo, 20, 20);
-        f2_3.zeige(filiale, 520, 20);
+       // f2_3.zeige(logo, 20, 20);
+       // f2_3.zeige(filiale, 520, 20);
         f2_3.zeige(filHinzufuegt, 120, 200);
         f2_3.zeige(filAdresseOne, 150, 270);
         f2_3.zeige(filAdresseTwo, 355, 270);
@@ -127,8 +132,8 @@ public class Main extends javax.swing.JFrame {
 
         f2_4.zeige(rGross, 10, 10);
         f2_4.zeige(rKleinFil, 20, 180);
-        f2_4.zeige(logo, 20, 20);
-        f2_4.zeige(filiale, 520, 20);
+       // f2_4.zeige(logo, 20, 20);
+       // f2_4.zeige(filiale, 520, 20);
         f2_4.zeige(countFilOne, 220, 270);
         f2_4.zeige(countFilTwo, 390, 270);
         f2_4.zeige(assortiment, 290, 350, 200);
@@ -138,11 +143,13 @@ public class Main extends javax.swing.JFrame {
 
         //Assortiment zeigen
 
-        Fenster f3 = new Fenster("Vodafone Shop");
+       Fenster f3 = new Fenster("Vodafone Shop");
+       /**
         Bild iP6 = new Bild("iPhone 6.jpg");
         Bild iP7 = new Bild("iPhone 7.jpg");
         Bild iP8 = new Bild("iPhone 8.jpg");
         Bild iPx = new Bild("iPhone x.jpg");
+        */
 
         Text t1_iP = new Text("iPhone 6:");
         Text t2_iP = new Text("iPhone 7:");
@@ -150,14 +157,16 @@ public class Main extends javax.swing.JFrame {
         Text t4_iP = new Text("iPhone X:");
 
 
-        f3.zeige(b1,40,20);
+        //f3.zeige(b1,40,20);
         f3.zeige(rKleinOwn, 20, 140);
         f3.zeige(rGross, 10, 10);
 
+        /**
         f3.zeige(iP6, 140, 170);
         f3.zeige(iP7, 440, 170);
         f3.zeige(iP8, 140, 290);
         f3.zeige(iPx, 440, 290);
+         */
 
         f3.zeige(t1_iP, 60,170);
         f3.zeige(t2_iP, 360,170);
@@ -178,7 +187,7 @@ public class Main extends javax.swing.JFrame {
 
         Fenster f4 = new Fenster("Kunde");
 
-        f4.zeige(b1,40,20);
+        //f4.zeige(b1,40,20);
         f4.zeige(rKleinOwn, 20, 140);
         f4.zeige(rGross, 10, 10);
         f4.zeige(firstname, 230, 200, 100);
@@ -194,8 +203,8 @@ public class Main extends javax.swing.JFrame {
 
 
 
-        SplashScreen sThree = new SplashScreen(3000,"","gewinnspiel.gif");
-        sThree.anzeigen();
+        //SplashScreen sThree = new SplashScreen(3000,"","gewinnspiel.gif");
+        //sThree.anzeigen();
 
         //Gewinnspiel
         Fenster f5 = new Fenster("Gewinnspiel");
@@ -203,7 +212,7 @@ public class Main extends javax.swing.JFrame {
         Text tGewTwo = new Text("Die SMS sind kostenlos innerhalb des EU-Raums.");
         Text gewNum = new Text(String.valueOf(kunde.gewinnspiel()));
 
-        f5.zeige(b1,40,20);
+        //f5.zeige(b1,40,20);
         f5.zeige(rKleinOwn, 20, 140);
         f5.zeige(rGross, 10, 10);
 

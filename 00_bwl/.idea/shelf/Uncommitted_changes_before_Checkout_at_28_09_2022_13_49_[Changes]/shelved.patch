@@ -1,0 +1,171 @@
+Index: ../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4ac9366c-2b3e-48f1-9b49-357449348fec\" name=\"Changes\" comment=\"cleaned project\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/programming.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/auktionshaus2/Variante_2014_wi.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/mail/Programm.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/webseite/WebSeite.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket2/FensterProjekte.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket4/Rechenzentrum.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket7/One.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Abgeordneter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/GekoreneMitgliederBundestag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Ministerpraesident.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket901/Bundesregierung.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/bwl/swing/basic/GraphikLiniePanel1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/framework/server/HttpAnswerThread.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/ml/datenbank/ColumnDatum.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/DateConverter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/Scanner.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/ml/views/Fenster.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/pi/Start.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/Depot.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/DlgNeueBank.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/Picture.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/SplashScreen.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/00_bwl/bwl/src/vf/scrum/ciprepared/Programm2.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/02_datei_bearbeiten.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/10_transfer.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/11_open_site.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/01_scripts/50_open_editor_erste.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/functions\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/hsqldb.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/hsqldb/mydb.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/hsqldb/mydb.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/hsqldb/mydb.script\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/mydb.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/mydb.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/mydb.script\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/servlet.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/start_admin.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/start_db.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/test.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/test.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/20_db/test.script\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/bootstrap.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/catalina-tasks.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/catalina.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/catalina.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/commons-daemon.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/cpappend.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/digest.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/digest.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/jsvc.tar.gz\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/service.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/setclasspath.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/setclasspath.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/shutdown.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/shutdown.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/startup.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/startup.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tomcat-juli.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tomcat-native.tar.gz\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tomcat6.exe\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tomcat6w.exe\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/version.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/bin/version.sh\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30_tomcat/conf/catalina.policy\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/00_scripts/01_build_platform.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/00_scripts/02_deploy_microservice_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/00_scripts/03_deploy_test_microservice_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/00_scripts/04_build_platform_prod.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/01_build_platform.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/02_deploy_microservice_1.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/03_deploy_test_microservice_1.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/40_ci/04_build_platform_prod.bat\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/PuTTYPortable.ini\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/splash.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/appicon.ico\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/appicon_16.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/appicon_32.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/AppInfo/appinfo.ini\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/putty/PAGEANT.EXE\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/putty/PLINK.EXE\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/60_putty/App/putty/PSCP.EXE\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Testbranch\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2EfemnStZFt8eSHD5oEkNDskb5F\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"last_opened_file_path\": \"D:/programming/00_bwl\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"http.proxy\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\programming\\00_bwl\" />\r\n      <recent name=\"D:\\programming\\\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Programm1\">\r\n    <configuration name=\"Programm1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bwl.Programm1\" />\r\n      <module name=\"programming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"bwl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Programm3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bwl.Programm3\" />\r\n      <module name=\"programming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"bwl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Programm1\" />\r\n        <item itemvalue=\"Application.Programm3\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4ac9366c-2b3e-48f1-9b49-357449348fec\" name=\"Changes\" comment=\"\" />\r\n      <created>1662991234876</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1662991234876</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"changed to google.com\">\r\n      <created>1662992249012</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662992249012</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"changed to neue Anordnungen\">\r\n      <created>1662992379789</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662992379789</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"changed to google.com\" />\r\n    <MESSAGE value=\"changed to neue Anordnungen\" />\r\n    <MESSAGE value=\"missing files added\" />\r\n    <MESSAGE value=\"cleaned project\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"cleaned project\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/workspace.xml b/../.idea/workspace.xml
+--- a/../.idea/workspace.xml	(revision 725ebe181fe4f4598ae4c05606ada73f62c025d3)
++++ b/../.idea/workspace.xml	(date 1664365653495)
+@@ -1,94 +1,30 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project">
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/programming.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/auktionshaus2/Variante_2014_wi.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/mail/Programm.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/main/webseite/WebSeite.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket2/FensterProjekte.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket4/Rechenzentrum.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket7/One.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Abgeordneter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/GekoreneMitgliederBundestag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket9/Ministerpraesident.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/oo/paket901/Bundesregierung.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/bwl/swing/basic/GraphikLiniePanel1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/framework/server/HttpAnswerThread.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/datenbank/ColumnDatum.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/DateConverter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/utils/Scanner.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/ml/views/Fenster.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/pi/Start.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/Depot.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/com/trainee/DlgNeueBank.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/Picture.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/e/com/ml/views/copy/SplashScreen.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/00_bwl/bwl/src/vf/scrum/ciprepared/Programm2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/01_neue_datei_anlegen.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/02_datei_bearbeiten.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/10_transfer.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/11_open_site.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/01_scripts/50_open_editor_erste.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/functions" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/hsqldb/mydb.script" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/mydb.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/mydb.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/mydb.script" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/servlet.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/start_admin.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/start_db.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/test.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/test.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/20_db/test.script" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/bootstrap.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina-tasks.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/catalina.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/commons-daemon.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/cpappend.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/digest.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/digest.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/jsvc.tar.gz" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/service.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/setclasspath.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/setclasspath.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/shutdown.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/shutdown.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/startup.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/startup.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat-juli.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat-native.tar.gz" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat6.exe" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tomcat6w.exe" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/tool-wrapper.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/version.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/bin/version.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30_tomcat/conf/catalina.policy" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/01_build_platform.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/02_deploy_microservice_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/03_deploy_test_microservice_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/00_scripts/04_build_platform_prod.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/01_build_platform.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/02_deploy_microservice_1.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/03_deploy_test_microservice_1.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/40_ci/04_build_platform_prod.bat" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/PuTTYPortable.ini" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/Launcher/splash.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon.ico" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon_16.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appicon_32.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/AppInfo/appinfo.ini" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PAGEANT.EXE" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PLINK.EXE" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/60_putty/App/putty/PSCP.EXE" beforeDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/0/a/0a6550166a6eaac9ab06ed6cbabde4cf3be7eae2" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/3/1/3174be55f5ab98c931d85c5afb4f597346342e9b" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/3/7/377783e88b17e857b3fccb76b92b73f1cc54f519" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/4/6/469e6d21e02ee001c35d94b09a49a63f0bc0bcac" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/5/55ca2d0f931d8b48f30203201299dd08cacfcf16" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/6/563a23e064e6fdd2d09bd0c2d99ef456aff71a31" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/5/a/5aa2a5f8faa65774a8acba73aa566bd1457853a8" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/6/2/62f76748ce32ebb29083055f580c09a5111fd672" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/6/7/6726e1579fe81a283271d76aa7d60263cb6a9121" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/7/b/7bc0ed3027fe58915613743e681442cc498c867e" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/7/d/7deef80ea3a183412bcc31ac838393532f971086" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/9/c/9c212431f03adbc64492310e04190adc1d72bb82" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/a/e/ae26a69460ba09ac57fe26e918c6e87e1518b315" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/b/c/bcc47371b7c102010b688ed5ef8d129970d9ef55" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/c/c/cc1638429595f1a5400e8a365a3df97e7e28a767" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/7/f738e831dd3982854e27960578c4106f1ca5fbc9" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/9/f9e646b48648acc4628acf27ead68acebfd2c2cc" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/00_bwl/.idea/sonarlint/issuestore/f/c/fcdad5961d2da2715f5b287ed3ab071d44a88237" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -120,11 +56,11 @@
+     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "last_opened_file_path": "D:/programming/00_bwl",
++    "last_opened_file_path": "D:/Intellij/Git/00_bwl",
+     "project.structure.last.edited": "Project",
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "http.proxy"
++    "settings.editor.selected.configurable": "configurable.group.build.android"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -136,7 +72,6 @@
+   <component name="RunManager" selected="Application.Programm1">
+     <configuration name="Programm1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="bwl.Programm1" />
+-      <module name="programming" />
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="bwl.*" />
+@@ -160,6 +95,10 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <list>
++      <item itemvalue="Application.Programm1" />
++      <item itemvalue="Application.Programm3" />
++    </list>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.Programm1" />
+diff --git a/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0 b/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/2/62f76748ce32ebb29083055f580c09a5111fd672 b/.idea/sonarlint/issuestore/6/2/62f76748ce32ebb29083055f580c09a5111fd672
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/5/55ca2d0f931d8b48f30203201299dd08cacfcf16 b/.idea/sonarlint/issuestore/5/5/55ca2d0f931d8b48f30203201299dd08cacfcf16
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/0/a/0a6550166a6eaac9ab06ed6cbabde4cf3be7eae2 b/.idea/sonarlint/issuestore/0/a/0a6550166a6eaac9ab06ed6cbabde4cf3be7eae2
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/6/563a23e064e6fdd2d09bd0c2d99ef456aff71a31 b/.idea/sonarlint/issuestore/5/6/563a23e064e6fdd2d09bd0c2d99ef456aff71a31
+new file mode 100644

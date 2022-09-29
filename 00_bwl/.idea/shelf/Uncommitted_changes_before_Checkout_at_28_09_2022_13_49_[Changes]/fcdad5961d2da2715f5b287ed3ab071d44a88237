@@ -1,0 +1,28 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞßÑûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õÔ ïùÿÿÿÿ
+f
+java:S1104	"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+l
+java:S1104
+"QMake dekan a static final constant or non-public and provide accessors if needed.(©ÈÎ¢ıÿÿÿÿ
+r
+java:S1104"WMake professoren a static final constant or non-public and provide accessors if needed.(ĞßÑûÿÿÿÿ
+r
+java:S1104"WMake vorlesungen a static final constant or non-public and provide accessors if needed.(õÔ ïùÿÿÿÿ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ĞßÑûÿÿÿÿ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(õÔ ïùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–¼İ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(„Ï
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(€¶º€úÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(€¶º€úÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(œŒ°Øúÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(œŒ°Øúÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(–¼İ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(“œ§©
+H
+java:S1128"2Remove this unused import 'bwl.oo.paket2.Aufgabe'.(¾£¬ò

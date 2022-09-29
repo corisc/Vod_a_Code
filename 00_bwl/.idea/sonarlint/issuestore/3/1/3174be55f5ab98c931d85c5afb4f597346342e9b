@@ -1,0 +1,7 @@
+
+D
+java:S1121,".Extract the assignment out of this expression.(¬†ÇÔ
+„
+java:S4165"iRemove this useless assignment; "ministerium" already holds the assigned value along all execution paths.(ÿ—ÆÌüÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(ÿ—ÆÌüÿÿÿÿ

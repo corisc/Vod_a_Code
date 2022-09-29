@@ -4,6 +4,12 @@ import com.ml.views.*;
 
 public class Programm4 {
 
+  /**
+   * The function `main` creates a window, draws a line, draws a text, draws a polygon, creates a new window, creates a
+   * headline, creates a text, creates an input field, creates a button, waits for the button to be pressed, gets the value
+   * from the input field, creates an output window, calculates the height of the polygon, draws the polygon, calculates
+   * the height of the second polygon, draws the second polygon
+   */
   public static void main(String[] args){
     ZeichenFenster zei1 = new ZeichenFenster("Eins");
     zei1.linieZeichnen(100,0,100,500,3);

@@ -3,12 +3,44 @@
 
 skinparam classAttributeIconSize 0
 
+abstract class Klassen{
++ String klasse
++ ArrayList<String> instanzVariablenBeschriftung
++ ArrayList<String> instanzVariableWert
++ String getInfo()
+}
+class Hochschule extends Klassen{
+-String name
+-String adresse
++setInListeH()
+}
+class Fachschaft extends Klassen{
++ klasse = "Fachschaft";
++ instanzVariablenBeschriftung.add("Name");
+}
+class Angestellter extends Klassen{
++ klasse = "Angestellter";
++ instanzVariablenBeschriftung.add("Vorname");
++ instanzVariablenBeschriftung.add("Nachname");
++ instanzVariablenBeschriftung.add("Alter");
+
+}
+class Vorlesung extends Klassen{
++ klasse = "Vorlesung";
++ instanzVariablenBeschriftung.add("Name");
++ instanzVariablenBeschriftung.add("Datum");
+}
 class Game{
++ ArrayList<XHochschule> hochschuleListe
++ ArrayList<XAngestellter> angestellterListe
++ ArrayList<XVorlesung> vorlesungListe
++ ArrayList<XFachschaft> fachschaftListe
++ ArrayList<XVerbindung> verbindungListe
 +start()
 +main()
 +einsicht()
 }
-class Fenster{
+class Fenster {
 - ArrayList<EingabeFeld>
 - Fenster f
 +erstelleText()
@@ -17,59 +49,23 @@ class Fenster{
 +loeschen()
 }
 class Verbindung{
--{static} ArrayList<XVerbindung> verbindungsListe
-+setInVerbindungsListe()
 -int h
 -int f
 -int a
 -int v
 }
-class Hochschule{
--{static}ArrayList<Hochschule> hochschuleListe;
--String name
--String adresse
-+setInListeH()
-}
-class Fachschaft{
--{static} ArrayList<XFachschaft> listeF
--String name
-+ setInListeF()
-}
-class Angestellter{
--{static}ArrayList<Fachschaft>
--String name
-+setInListeA()
-
-}
-class Vorlesung{
--{static}ArrayList<Vorlesung>
--String name
--String datum
-+setInListeV()
-}
-
 Hochschule "1" *-- "n" Fachschaft
 Hochschule "1" *-- "n" Vorlesung
 Hochschule "1" *-- "n" Angestellter
-Angestellter "1" -- "n" Vorlesung
-Vorlesung "n" -- "1" Fachschaft
-Fachschaft "n" -- "n" Angestellter
 
-Verbindung "n" -- "1" Hochschule
-Verbindung "n" -- "1" Vorlesung
-Verbindung "n" -- "1" Angestellter
-Verbindung "n" -- "1" Fachschaft
 Verbindung "n" -- "1" Game
 
-Fenster -- Hochschule
-Fenster -- Vorlesung
-Fenster -- Angestellter
-Fenster -- Fachschaft
-Fenster -- Game
+Fenster "1" -- "n" Klassen
 
 Game "1" -- "n" Hochschule
 Game "1" -- "n" Vorlesung
 Game "1" -- "n" Angestellter
 Game "1" -- "n" Fachschaft
+Game "1" -- "n" Fenster
 
 @enduml

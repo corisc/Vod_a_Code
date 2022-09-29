@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="4ac9366c-2b3e-48f1-9b49-357449348fec" name="Changes" comment="cleaned project">
       <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/3174be55f5ab98c931d85c5afb4f597346342e9b" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/00_bwl/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2022_13_49_[Changes]/377783e88b17e857b3fccb76b92b73f1cc54f519" afterDir="false" />
@@ -64,6 +65,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -77,8 +79,9 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build.android"
+
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programming\00_bwl" />

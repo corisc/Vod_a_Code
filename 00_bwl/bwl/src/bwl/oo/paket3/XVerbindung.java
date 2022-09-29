@@ -3,16 +3,6 @@ package bwl.oo.paket3;
 import java.util.ArrayList;
 
 public class XVerbindung {
-    private  static ArrayList<XVerbindung> verbindungsListe = new ArrayList<>();
-    public static ArrayList<XVerbindung> getVerbindungsListe() {
-        return verbindungsListe;
-    }
-    public void setInVerbindungsListe(XVerbindung x) {
-        verbindungsListe.add(x);
-    }
-    public XVerbindung getAusVerbindungsListe(int index){
-        return verbindungsListe.get(index);
-    }
     private int h;
     private int f;
     private int a;

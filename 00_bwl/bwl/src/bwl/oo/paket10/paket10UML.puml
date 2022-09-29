@@ -30,7 +30,20 @@ class Employee{
     private int id
 }
 
-Unternehmen "1 " *-- " *   " Department
+class Kunde{
+    private String vorname
+    private String nachname
+}
+
+class Konto{
+    private int KontoID;
+    private String Inhaber
+    private Integer Kontostand
+}
+
+Unternehmen "1  " -- " *" Konto
+Unternehmen "*  " -- "*" Kunde
+Unternehmen "1 " *-- " *  " Department
 Unternehmen "1  " *-- " * " Office
 Department "1 " -- "1..*  " Employee
 Department " *  " -- "*" Office

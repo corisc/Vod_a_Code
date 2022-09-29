@@ -1,8 +1,6 @@
 
 Y
 )bwl/src/bwl/oo/paket7/Buergermeister.java,8\a\8a536a504d961ab524f8ed62ff5c8a285e271193
-V
-&bwl/src/bwl/oo/paket10/Department.java,4\b\4b8f3ac1dc148b84aa2113482cfe8d4a1cc5dcec
 T
 $bwl/src/bwl/oo/paket10/Employee.java,0\5\05277a3e8ca816105f75ebc59e4ef12b50cff69d
 O
@@ -19,8 +17,6 @@ w
 G.idea/sonarlint/issuestore/5/6/563a23e064e6fdd2d09bd0c2d99ef456aff71a31,1\5\155b2aaae14f0e99d99c47ab26a310c0c5d3602b
 R
 "bwl/src/bwl/oo/paket10/Office.java,7\2\72b64f614168bead2f345e8a84d115220cf6720c
-S
-#bwl/src/bwl/oo/paket10/Company.java,b\2\b291fed4e60dc70eee21cb659d90f0fcfef297fb
 w
 G.idea/sonarlint/issuestore/1/5/155b2aaae14f0e99d99c47ab26a310c0c5d3602b,a\2\a279c645d28d2b7afcb7d22ff1b6bd6af854f7a7
 w
@@ -46,8 +42,6 @@ w
 G.idea/sonarlint/issuestore/5/4/54b72174c5c2413b9111f42c9b01e7e6cf9c0582,6\9\6999af038f866bcf52f314e4f0d30e8dd4a7abd6
 w
 G.idea/sonarlint/issuestore/a/1/a1b4c826aa0d5047e22696149eb02b8d910c43df,e\c\ecea04dc856eb5867b17a4fef36274ffa3d0c9ca
-S
-#bwl/src/bwl/oo/paket901/Partei.java,b\6\b68edfcb11d4827004cffe887fdebcdc59c7d203
 P
  bwl/src/bwl/oo/paket3/XGame.java,f\0\f028f874bf48cf9260eadc8a6e3bbd3df7a003c3
 V

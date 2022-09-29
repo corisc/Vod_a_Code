@@ -1,5 +1,7 @@
 package bwl.oo.paket4;
 
+import bwl.oo.paket3.Vorlesung;
+import bwl.oo.paket7.Buergermeister;
 import com.ml.views.AusgabeFenster;
 
 public class A0Start {
@@ -24,6 +26,7 @@ public class A0Start {
     itAbteilung.fuegeMitarbeiterHinzu(a2);
     itAbteilung.fuegeMitarbeiterHinzu(a3);
     itAbteilung.fuegeMitarbeiterHinzu(a4);
+    Buergermeister bu1 = new Buergermeister("hans","meier");
     
     AusgabeFenster aus = new AusgabeFenster("Love it !");
     
@@ -40,6 +43,7 @@ public class A0Start {
     aus.ausgeben(a2.arbeiten());
     aus.ausgeben(a2.urlaubBeantragen());
     aus.ausgeben(os.werbungZeigen());
+
   }
 
 }

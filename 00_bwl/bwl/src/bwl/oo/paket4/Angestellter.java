@@ -1,5 +1,10 @@
 package bwl.oo.paket4;
 
+import bwl.oo.paket2.Mitarbeiter;
+import bwl.oo.paket3.Vorlesung;
+import bwl.oo.paket6.Filiale;
+import bwl.oo.paket7.Buergermeister;
+
 public class Angestellter {
   
   public String vorname;
@@ -34,5 +39,13 @@ public class Angestellter {
     //System.out.println(ss);
     return ss;
   }
+  /*public String kündigen(Mitarbeiter mm2){
+    String es = new String(mm2+" hat geküdigt");
+    return es;
+  }*/
+  /*public String vorlesungTeilnehmen(Vorlesung xx){
+    String gg = new String(vorname+nachname+" nimmt an Vorlesung"+xx+" teil");
+    return gg;
+  }*/
 }
 

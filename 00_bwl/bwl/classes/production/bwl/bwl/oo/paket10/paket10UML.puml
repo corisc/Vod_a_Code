@@ -1,0 +1,38 @@
+A class diagram.
+@startuml
+'https://plantuml.com/class-diagram
+
+class Unternehmen {
+    private String name;
+}
+class Department{
+    private String name
+    ArrayList employeesRegister
+
+    addEmployeeToRegister()
+    amountOfEmployees()
+    searchEmployeesRegister()
+    removeEmployeeFromRegister()
+}
+
+class Office{
+    private String name
+    private String address
+    ArrayList departmentRegister
+
+    addDepartmentToRegister()
+    amountOfDepartments()
+    removeDepartmentFromRegister()
+}
+
+class Employee{
+    private String name
+    private int id
+}
+
+Unternehmen "1 " *-- " *   " Department
+Unternehmen "1  " *-- " * " Office
+Department "1 " -- "1..*  " Employee
+Department " *  " -- "*" Office
+
+@enduml

@@ -1,0 +1,80 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+abstract class Klassen{
++ String klasse
++ ArrayList<String> instanzVariablenBeschriftung
++ ArrayList<String> instanzVariableWert
++ String getInfo()
+}
+class Hochschule extends Klassen{
+-String name
+-String adresse
++setInListeH()
+}
+class Fachschaft extends Klassen{
++ klasse = "Fachschaft";
++ instanzVariablenBeschriftung.add("Name");
+}
+class Angestellter extends Klassen{
++ klasse = "Angestellter";
++ instanzVariablenBeschriftung.add("Vorname");
++ instanzVariablenBeschriftung.add("Nachname");
++ instanzVariablenBeschriftung.add("Alter");
+}
+class Vorlesung extends Klassen{
++ klasse = "Vorlesung";
++ instanzVariablenBeschriftung.add("Name");
++ instanzVariablenBeschriftung.add("Datum");
+}
+class Konto extends Klassen{
++ klasse = "Konto";
++ instanzVariablenBeschriftung.add("KontoID");
++ instanzVariablenBeschriftung.add("Inhaber");
++ instanzVariablenBeschriftung.add("Kontostand");
+}
+
+class Game{
++ ArrayList<XHochschule> hochschuleListe
++ ArrayList<XAngestellter> angestellterListe
++ ArrayList<XVorlesung> vorlesungListe
++ ArrayList<XFachschaft> fachschaftListe
++ ArrayList<XKonto> kontoListe
++ ArrayList<XVerbindung> verbindungListe
++start()
++main()
++einsicht()
+}
+class Fenster {
+- ArrayList<EingabeFeld>
+- Fenster f
++erstelleText()
++erstelleBeschriftetesEingabefeld()
++erstelleSchalter()
++loeschen()
+}
+class Verbindung{
+-int h
+-int f
+-int a
+-int v
+}
+Hochschule "1" *-- "n" Fachschaft
+Hochschule "1" *-- "n" Vorlesung
+Hochschule "1" *-- "n" Angestellter
+Hochschule "1" *-- "n" Konto
+
+Verbindung "n" -- "1" Game
+
+Fenster "1" -- "n" Klassen
+
+Game "1" -- "n" Hochschule
+Game "1" -- "n" Vorlesung
+Game "1" -- "n" Angestellter
+Game "1" -- "n" Fachschaft
+Game "1" -- "n" Fenster
+Game "1" -- "n" Konto
+
+@enduml

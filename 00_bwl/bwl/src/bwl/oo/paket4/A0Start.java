@@ -1,6 +1,8 @@
 package bwl.oo.paket4;
 
+import bwl.oo.paket10.Company;
 import bwl.oo.paket3.Vorlesung;
+import bwl.oo.paket6.Filiale;
 import bwl.oo.paket7.Buergermeister;
 import com.ml.views.AusgabeFenster;
 
@@ -43,6 +45,10 @@ public class A0Start {
     aus.ausgeben(a2.arbeiten());
     aus.ausgeben(a2.urlaubBeantragen());
     aus.ausgeben(os.werbungZeigen());
+    Filiale f1 = new Filiale("Magdeburg");
+    aus.ausgeben(a2.ortung(f1));
+    Company c1 = new Company("Vodafone");
+    aus.ausgeben(a2.arbeitetBei(c1));
 
   }
 

@@ -1,5 +1,6 @@
 package bwl.oo.paket4;
 
+import bwl.oo.paket10.Company;
 import bwl.oo.paket2.Mitarbeiter;
 import bwl.oo.paket3.Vorlesung;
 import bwl.oo.paket6.Filiale;
@@ -39,13 +40,14 @@ public class Angestellter {
     //System.out.println(ss);
     return ss;
   }
-  /*public String kündigen(Mitarbeiter mm2){
-    String es = new String(mm2+" hat geküdigt");
-    return es;
-  }*/
-  /*public String vorlesungTeilnehmen(Vorlesung xx){
-    String gg = new String(vorname+nachname+" nimmt an Vorlesung"+xx+" teil");
-    return gg;
-  }*/
+  public String ortung(Filiale filiale){
+    String sus = new String(vorname+nachname+" befindet sich in der Filiale: "+filiale.getStandort());
+    return sus;
+  }
+  public String arbeitetBei(Company company){
+    String suss = new String(vorname+nachname+"arbeitet bei der Firma: "+company.getName());
+    return suss;
+  }
+
 }
 

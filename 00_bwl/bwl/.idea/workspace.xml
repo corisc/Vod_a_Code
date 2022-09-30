@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67ec2102-d40a-45f9-8800-6dc1b887e944" name="Changes" comment="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket2/Projekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket2/Projekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/Besitzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket6/Besitzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwl/oo/paket6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/ausrufezeichen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/ban_vod.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner_ohm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/banner_vf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/bannerfh.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/filiale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/fireworks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/fragezeichen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/gewinnspiel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/haken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/herz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone 8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/iPhone x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/lange5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sTwo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sap_breit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/sql_splash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/start_bild.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/vf_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwl/oo/paket6/pictures/wappen.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FLX4rcMeNaA4P8QjeBj5uMyHqs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "13",
+    "last_opened_file_path": "D:/git/00_bwl",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bwl.oo.paket6.Main" />
+      <module name="bwl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bwl.oo.paket6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67ec2102-d40a-45f9-8800-6dc1b887e944" name="Changes" comment="" />
+      <created>1664272149930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664272149930</updated>
+    </task>
+    <task id="LOCAL-00001" summary="FIX Anastasiia">
+      <created>1664374226031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664374226031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alte gui wurde korregiert">
+      <created>1664376256753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664376256753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
+      <created>1664445815602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664445815602</updated>
+    </task>
+    <task id="LOCAL-00004" summary="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt">
+      <created>1664445840709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664445840709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIX Anastasiia" />
+    <MESSAGE value="alte gui wurde korregiert" />
+    <MESSAGE value="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="neue methode zinsSatzAendern wurde geschrieben + paket mit den bildern hinzugefuegt" />
+  </component>
+</project>

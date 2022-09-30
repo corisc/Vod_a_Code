@@ -96,6 +96,7 @@ public class Partei {
     public static Partei create1Party(){
         Fenster create = new Fenster("erstelle Partei", 1300, 1000);
         EingabeFeld parteiname = new EingabeFeld("Parteiname");
+
         EingabeFeld Gruender = new EingabeFeld("Gruender");
         Schalter erstellen = new Schalter("Erstellen");
         create.zeige(parteiname, 200, 500, 500);

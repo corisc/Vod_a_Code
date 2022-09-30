@@ -1,0 +1,15 @@
+
+|
+java:S1192U"aDefine a constant instead of duplicating this literal "zahl konnte nicht gelesen werden" 4 times.(šÂÜñÿÿÿÿÿ
+j
+java:S1450"TRemove the "frame" field and declare it as a local variable in the relevant methods.(ñð‰Í
+t
+java:S1450"YRemove the "scrollPane" field and declare it as a local variable in the relevant methods.(õŸ›‚ÿÿÿÿÿ
+_
+java:S3252;"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Ûéú¤
+F
+java:S1128"+Remove this unused import 'java.awt.Color'.(ùÈãÈøÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'java.awt.event.AdjustmentEvent'.(çñçÉ
+T
+java:S1128">Remove this unused import 'java.awt.event.AdjustmentListener'.(ˆÐ»Û

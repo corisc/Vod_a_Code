@@ -1,6 +1,8 @@
 package bwl.oo.paket8;
 
-public class Konto {
+import bwl.oo.paket3.Klassen;
+
+public class Konto extends Klassen { //RG "extend Klassen"
 
     private int KontoID;
     private String Inhaber;
@@ -12,8 +14,12 @@ public class Konto {
         this.Inhaber = Inhaber;
         this.Kontostand = Kontostand;
     }
-
-
+    public Konto(){
+        klasse = "Konto";//RG
+        instanzVariablenBeschriftung.add("KontoID");//RG
+        instanzVariablenBeschriftung.add("Inhaber");//RG
+        instanzVariablenBeschriftung.add("Kontostand");//RG
+    }
 
     public int getKontoID() {
         return KontoID;

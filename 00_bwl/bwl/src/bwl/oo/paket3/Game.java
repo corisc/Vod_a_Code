@@ -64,6 +64,7 @@ public class Game {
             dd01.eintragHinzufuegen("Angestellter");//4
             dd01.eintragHinzufuegen("Vorlesung");//5
             dd01.eintragHinzufuegen("Konto");//6
+            dd01.eintragHinzufuegen("Verbindung");//7
 
             f.zeige(dd01,10,10);
 

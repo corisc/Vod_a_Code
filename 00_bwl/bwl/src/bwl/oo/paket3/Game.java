@@ -97,7 +97,7 @@ public class Game {
             DropDown ddk=new DropDown();
             ddk.eintragHinzufuegen("Auswahl: Konto");
             for (Konto x:kontoListe){
-                ddv.eintragHinzufuegen(x.getInfo());}
+                ddk.eintragHinzufuegen(x.getInfo());}
             f.zeige(ddk,10,250);
 
             ff.erstelleSchalter("Bestätige",10,290,100);
